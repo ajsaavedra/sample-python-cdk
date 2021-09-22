@@ -13,7 +13,7 @@ from sample_python_cdk.sample_python_cdk_stack import SamplePythonCdkStack
 
 
 app = core.App()
-SamplePythonCdkStack(app, "SamplePythonCdkStack",
+SamplePythonCdkStack(app, "Tony-Sample-Python-CdkStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
