@@ -6,7 +6,6 @@ def broken_func(event):
     if random_num >= 5:
         try:
             raise ValueError('Represents a hidden bug, catch this')
-            raise Exception('This is the exception you expect to not handle')
         except ValueError as error:
             print('Caught this error: ' + repr(error))
     return 'Hello, CDK! You have hit {}\n'.format(event['path'])
