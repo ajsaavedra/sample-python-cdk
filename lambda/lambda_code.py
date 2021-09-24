@@ -18,5 +18,5 @@ def handler(event, context):
         'headers': {
             'Content-Type': 'text/plain'
         },
-        'body': broken_func(event['path'])
+        'body': broken_func()
     }
