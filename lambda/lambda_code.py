@@ -3,7 +3,7 @@ import random
 
 def broken_func():
     random_num=random.randint(0,9)
-    return 'Hello, CDK! Your number is {}\n'.format(random_number)
+    return 'Hello, CDK! Your number is {}\n'.format(random_num)
 
 def handler(event, context):
     print('request: {}'.format(json.dumps(event)))
